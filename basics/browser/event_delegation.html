@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Event Delegation</title>
+  </head>
+  <body>
+    <div class="books">
+      <ul id="books">
+        <l1><a href="#" id="book1">Libro 1</a></l1>
+        <l1><a href="#" id="book2">Libro 2</a></l1>
+        <l1><a href="#" id="book3">Libro 3</a></l1>
+        <l1><a href="#" id="book4">Libro 4</a></l1>
+        <l1><a href="#" id="book5">Libro 5</a></l1>
+      </ul>
+    </div>
+
+    <script>
+      // bubbling: va del elemento especifico hasta llegar al DOM
+      //  capturing: va del DOM hasta llegar al elelemento especifico, no soportado por IE8 y mas viejos
+      (function() {
+        'use strict';
+        // var book1 = document.querySelector('#book1');
+        // // el tercer paraemtro del eventlistener es el capturing
+        // book1.addEventListener('click', function() {
+        //   console.log(book1.innerText + " fue clickeado");
+        // },false);
+
+        var books = document.querySelector('#books');
+        books.addEventListener('click', function(e) {
+          if (e.target.matches('a#book4')) {
+            console.log('comprar libro en amazon');
+          }else{
+            console.log(e.target.innerText, ' clickeado (con event Delegation)');
+          }
+        }, false);
+      })();
+    </script>
+  </body>
+</html>

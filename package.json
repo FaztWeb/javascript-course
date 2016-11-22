@@ -1,0 +1,29 @@
+{
+  "name": "basics_javasrcipt",
+  "version": "1.0.0",
+  "description": "//libros data structure and algorithm with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabianNCDev/basics_javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabianNCDev/basics_javascript/issues"
+  },
+  "homepage": "https://github.com/FabianNCDev/basics_javascript#readme",
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-google": "^0.7.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^3.0.1"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.18.0"
+  }
+}
