@@ -1,7 +1,6 @@
 ## Tutoriales Recomendados
 - http://javascript.info/
 
-
 ## Personajes
 - John Resig
 - Douglas Crockford,
@@ -17,7 +16,7 @@ en la carpeta algoritmos se encontrara ejemplos de :
 
 ## Syntax
   ejemplos basicos de sintaxis contiene:
-  - arreglos(agregate arrays operations, accesor functions), objetos, for, if, while, etc.
+  - arreglos(agregate arrays operations, accesor functions, mutator functions), objetos, for, if, while, etc.
 # Consideraciones
 - los arreglos en JS son Objetos, debido a esto los arreglos en JS, no son tan rapidos como eficientes
   como en otros lenguajes, hay muchas maneras de usar arreglos pero la manera mas optima es usando el

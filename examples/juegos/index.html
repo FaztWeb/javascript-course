@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Juego</title>
+    <style media="screen">
+      canvas{
+        border: solid;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="micanvas">
+      Canvas no soportado
+    </canvas>
+
+    <script>
+      window.addEventListener('load', init);
+      function init() {
+        var canvas = document.getElementById('micanvas');
+        var ctx = canvas.getContext('2d');
+
+        ctx.fillStyle = 'red';
+        ctx.fillRect(20, 20, 50, 50);
+      }
+    </script>
+  </body>
+</html>
