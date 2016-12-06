@@ -7,3 +7,19 @@ while (number < 11) {
   ++number;
 }
 console.log(sum);
+
+
+// reverse words
+
+var reverse = function (word) {
+  var longitud = word.length - 1;
+  var reverse = '';
+  while(longitud > -1){
+    reverse += word[longitud];
+    longitud--;
+  }
+  return reverse;
+};
+
+var palabraAlReves = reverse('hola');
+console.log(palabraAlReves);

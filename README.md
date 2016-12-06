@@ -1,6 +1,9 @@
 ## Tutoriales Recomendados
 - http://javascript.info/
 
+## conceptos
+- variables, constantes, identifier names, literals, primitive types y objets
+
 ## Personajes
 - John Resig
 - Douglas Crockford,
