@@ -21,6 +21,7 @@ en la carpeta algoritmos se encontrara ejemplos de :
   ejemplos basicos de sintaxis contiene:
   - arreglos(agregate arrays operations, accesor functions, mutator functions), objetos, for, if, while, etc.
 # Consideraciones
+- Js is a dynamic language, so its values  can be changed in the flow of the programm.
 - los arreglos en JS son Objetos, debido a esto los arreglos en JS, no son tan rapidos como eficientes
   como en otros lenguajes, hay muchas maneras de usar arreglos pero la manera mas optima es usando el
   operador [], que es mas eficiente que llamar al constructor Array (new Array()).

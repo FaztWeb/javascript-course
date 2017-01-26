@@ -1,0 +1,42 @@
+// object represent the typical expression of 'encapsulation'
+// that is the ability to concentrate both data(properties) and
+//and functions (methods), hidden internal details
+
+// If we need to get a sorted list of employees
+// We do not need to know how this method works
+
+var company = {
+  name: 'ACME INC.',
+  employees: [],
+  sortEmployeesByName: function () {}
+};
+
+
+// two reason to hidding internal details
+// 1.simplify an understandable way to use an object with out need it complexity
+// 2.to simplify change management
+
+// however when internal details implmentation depends on publicly accesible properties
+// we risk to to frustate the effort of hidden internal behaviour
+company.employees = 'this is a joke!';
+company.sortEmployeesByName();
+
+// a general approach to prevent relevant properties direct access is to replace with methods
+function Company(name) {
+  this.name = name;
+  var employees = [];
+
+  this.getEmployees = function () {
+    return employees;
+  }
+
+  this.addEmployee = function (employee) {
+    employees.push(employee);
+  }
+
+  this.sortEmployeesByName = function () {
+    // algorithm to sort
+  };
+}
+
+var company = new Company('ACME INC.');
