@@ -31,3 +31,6 @@ COdes
 - association: association.js
 - aggregation: aggregation.js
 - composition: composition.js
+
+http://stackoverflow.com/questions/19633762/classical-inheritance-vs-protoypal-inheritance-in-javascript
+[encapsulation vs abstraction](http://stackoverflow.com/questions/16014290/simple-way-to-understand-encapsulation-and-abstraction)

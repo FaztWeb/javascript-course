@@ -43,3 +43,7 @@ function Stack()
       this.stack.push(item);
     }
 }
+
+/*Subtype polimorphism*/
+// allows the consideration of different object types, with an
+//  inheritance relationship, to be handle consistently

@@ -5,5 +5,5 @@ function showScope() {
 
 let scope = 'global';
 
-console.log(scope);
-console.log(showScope());
+console.log(scope); //displays 'global'
+console.log(showScope()); // displays 'local'

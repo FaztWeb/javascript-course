@@ -1,3 +1,5 @@
+// creating an array from string
+
 var sentence = "javascript is fun";
 var words = sentence.split(' ');
 
