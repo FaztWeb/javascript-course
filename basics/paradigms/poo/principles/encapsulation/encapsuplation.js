@@ -1,7 +1,9 @@
+/*encapsulation*/
+
 // object represent the typical expression of 'encapsulation'
 // that is the ability to concentrate both data(properties) and
 //and functions (methods), hidden internal details
-// this feature, is called 'information hidding principle'.
+// this feature, is called '
 
 // If we need to get a sorted list of employees
 // We do not need to know how this method works
@@ -12,10 +14,6 @@ var company = {
   sortEmployeesByName: function () {}
 };
 
-
-// two reason to hidding internal details
-// 1.simplify an understandable way to use an object with out need it complexity
-// 2.to simplify change management
 
 // however when internal details implmentation depends on publicly accesible properties
 // we risk to to frustate the effort of hidden internal behaviour
@@ -42,32 +40,7 @@ function Company(name) {
 
 var company = new Company('ACME INC.');
 
-/*Convention-based approach*/
 
-// information hidding principle enforces the design objecto to have at leats to parts:
-// public part and private one
-// other Object Oriented programming provides specif keywords such as
-// public and private(access modifiers) to allow the hidden principle
-// JS objects do not care about privacy. All the properties and methods are public
-
-function TheatreSeats() {
-  this._seats = [];
-}
-
-TheatreSeats.prototype.placePerson = function (person) {
-  this._seats.push(person);
-};
-
-TheatreSeats.prototype.showPersons = function () {
-  return this._seats;
-};
-
-var theatreSeats = new TheatreSeats();
-theatreSeats.placePerson({name:'Fabian',surname:'Jesus'});
-theatreSeats.placePerson({name:'Isaac',surname:'Delahaye'});
-console.log(theatreSeats.showPersons());
-
-// The internal details are not really hidden and privacy is based on the developer's willingness
 
 /*Privacy levels using closure*/
 // A simple way to fix the inconsistencies of the convention-based approach is not using
