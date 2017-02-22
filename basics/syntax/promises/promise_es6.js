@@ -3,7 +3,7 @@ const isMomHappy = true;
 
 // promise
 const willIGetNewPhone = new Promise(
-  (resolve, reject)=>{
+  (resolve, reject) => {
     if(isMomHappy){
       const phone = {
         brand:'sansung',

@@ -23,6 +23,7 @@ function List() {
   function append(element) {
     this.dataStore[this.listSize++] = element;
   }
+
   function find(element) {
     for(var i=0; i < this.dataStore.length; ++i){
       if (this.dataStore[i] === element) {
@@ -31,6 +32,7 @@ function List() {
       return -1;
     }
   }
+
   function remove(element) {
     var foundAt = this.find(element);
     if (foundAt > -1) {
@@ -155,5 +157,9 @@ console.log(names.currPos());
 
 // iterator List
 for(names.front(); names.currPos() < names.length() - 1; names.next()) {
+  console.log(names.getElement());
+}
+
+for(names.end(); names.currPos() >= 0; names.prev()){
   console.log(names.getElement());
 }

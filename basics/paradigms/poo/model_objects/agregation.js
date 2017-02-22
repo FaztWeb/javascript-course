@@ -23,6 +23,6 @@ company.employees.push(marioRossi);
 // however, the real meaning of a company is bound to the reference of its employees
 delete company;
 
-// aggregation mechanism consist of several objects
+// aggregation mechanism consist in create an object consisting of several objects
 // while association relates autonomous object
 // association and aggregation raise a constraint more conceptual than technical

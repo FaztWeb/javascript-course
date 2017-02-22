@@ -13,7 +13,6 @@ class setWords {
   }
 
   backward(){
-
     return this.words.reverse();
   }
 }

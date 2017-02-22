@@ -1,9 +1,8 @@
 // ES5
 var isMomHappy = true;
 
-// la madre promete comprar un nuevo telefono
 // Promise
-var willGetNewPhone = new Promise(
+var willIGetNewPhone = new Promise(
   function (resolve, reject) {
     if(isMomHappy){
       var phone = {
@@ -16,7 +15,7 @@ var willGetNewPhone = new Promise(
       reject(reason);
     }
   }
-)
+);
 
 // segunda promesa, el niño promete a su amigo,mostrarle el telefono cuando su mama lo compre
 // es este metodo no se ha llamado un reject
@@ -41,8 +40,8 @@ var showOff = function (phone) {
 // el niño ejecuta la promesa
 // llamdo la promesa
 var askMom = function() {
-  willGetNewPhone
-    .then(showOff)
+  willIGetNewPhone
+    // .then(showOff)
     .then(function(fulfilled) {
       // obteniste un nuevo telefono
       console.log(fulfilled);
