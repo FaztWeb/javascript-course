@@ -1,5 +1,0 @@
-1. Inicio
-2. Leer medidas A, B, C
-3. Realizar el producto de A * B * C y guardarlo en V(V = A*B*C)
-3. Escribir el resultado V
-4. Fin

@@ -1,47 +1,56 @@
-## Engines
-- SpiderMonekey Javascrip Engine
-- Nodejs
+## Javascript Course
+		This is a course to learn Javacritp
 
+## Engines / Interpreters
+		to execute the code this programs
+		- Browser
+		- Node.js
+		- SpiderMonkey Javascript Engine
+
+## Course
+  - hello world
+  - comments
+  - variables
+    - scope
+  - artithmetic
+  - control-flow
+    - decision-construct
+      - if
+      - switch
+    - repetition-construct
+      - while
+      - for
+  - types
+    - number
+    - string
+    - boolean
+    - Arrays
+      - Arrays-Operations
+      - Aggregate operations
+      - Accessor Functions
+    - objects
+    - dynamic typed language
+  - logical Operators
+  - functions
+    - arguments
+  - classes
 
 ## Tutoriales Recomendados
+- iterator-functions
 - http://javascript.info/
 
 ## Personajes
 - John Resig
 - Douglas Crockford,
 
-## Algorithms
-en la carpeta algoritmos se encontrara ejemplos de :
- - recursion
-
-## Basics
- se encontrara ejemplos basicos de programacion como :
- - programacion orientada a objetos
- - scope o alcance de variables
-
-## Syntax
-  ejemplos basicos de sintaxis contiene:
-  - arreglos(agregate arrays operations, accesor functions, mutator functions), objetos, for, if, while, etc.
-# Consideraciones
-- Js is a dynamic language, so its values  can be changed in the flow of the programm.
-
-
 Algorithms + Data Structures = Programs (Prentice-Hall)
-
-
+JavaScript: The Definitive Guide
+JavaScript: The Good Parts
 
 Michael McMillan
-
-## Eslint
-npm install -g eslint
-eslint --init
-
 
 ## Canvas
 PaperJs ,KineticJS, Fabric.js, and EaselJS
 
 ## console
 http://teamtreehouse.com/library/console-foundations
-
-
-- funciones vacias : void functions o subprocedures

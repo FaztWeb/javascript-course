@@ -1,3 +1,0 @@
-quit();
-
-// $> js myscript.js
