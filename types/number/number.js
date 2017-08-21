@@ -1,4 +1,4 @@
-console.log(3.3343343343.toFixed(2));
+3.3343343343.toFixed(2)
 
 // incrementing
 ++5

@@ -1,17 +1,27 @@
-// creating arrays0
+// creating arrays literals
+// start with length 0
 var number = [];
 
-// that is an array with Length 0
-console.log(number.length); // 0
+number.length; // 0
 
-// creating an array with elements
+//creating arrays of numbers
 var numbers = [1,2,3,4,5];
-console.log(numbers.length); // 5
 
-// to obtain an index
-var whatEverIndex = 1;
+// to obtain from an index
 numbers[0]; //1
+numbers[0] + numbers[4]; //6
+
+var whatEverIndex = 1;
 numbers[whatEverIndex]; // 2
+
+// creating an array of objects
+var people = [
+	{"name": "Maria", "age": 21},
+	{"name": "isaac", "age": 34}
+];
+
+people[0]; // {"name": "Maria", "age": 21},
+people[0]["name"]; // "Maria"
 
 // creating with Array Constructor
 var numArray = new Array();
@@ -52,3 +62,17 @@ twoDimentional[3][0]; //1
 var colors = ["red", "green", "blue"];
 colors.indexOf("blue");//2
 colors.indexOf("purple"); // -1
+
+// Creating an String from the Array
+var a = [1,2,3,4];
+
+console.log(a.join()); // '1,2,3,4'
+console.log(a.toString()); // '1,2,3,4'
+
+var animals = ['Monkey', 'Cat', 'Fish', 'Lizard'];
+animals.join(" - ");
+
+animals.join('*');
+
+animals.join('sees');
+

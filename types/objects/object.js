@@ -1,12 +1,25 @@
-// everything in js is an object
-// even data types has a object wrapper
-// - object is just a list of pair of values
-// - is a container of values combined to form single data structure
-// that has a particular indentity
-
+// creating object literals
 var emptyObject = {};
 
-var person = { 'name': 'Fabian', 'surname': 'Jesus'};
+var person = { 'name': 'Isaac', 'surname': 'Asimov'};
+
+var person2 = {
+	'name': 'Aaron',
+	'surname': 'Swartz',
+	'luckyNumbers': [2,4,5,6,7],
+	'age': 28,
+	'isWorking': true
+};
+person2['luckyNumbers'][1];//4
+
+
+// notice that the last pair, not need a semicolon
+
+var dog = {
+	"legs": 4,
+	"name": "Hachiko",
+	"color": "white"
+};
 
 // PROPERTIES
 
@@ -39,10 +52,15 @@ var name = person.name;
 var name = person['name'];
 
 // access a non-existing property return 'undefined'
-var age = person.age;
+var age = person.age; //undefined
 
+// to access to all keys of an object
+Object.keys(person); //['name', 'address', 'country']
+
+// to add a property
 // assing a value to a not yet property, assign this property
 person.age = 28;
+person['favorite-color'] = "red";
 
 // due to the dynamic feature of javascript, objects can start
 // with a basic representation and gradually enrich it with properties
@@ -58,3 +76,6 @@ person.age = 28;
 
 // we can also destroy an object with 'delete' statement
 delete person.address;
+
+// everything in js is an object
+// even data types has a object wrapper

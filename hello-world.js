@@ -3,5 +3,7 @@
   about:blank
 */
 
+// this is an inline comment
 2 + 2
-'hello world'
+
+'Hello World'

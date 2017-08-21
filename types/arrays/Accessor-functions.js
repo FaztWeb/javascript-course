@@ -63,3 +63,11 @@ myArray.unshift("apple");//adds another "apple" element at the array
 console.log(myArray.indexOf("apple")); //will render 0
 //lastIndexOf function returns the greates position of a element on array
 console.log(myArray.lastIndexOf("apple"));//will render 2
+
+// create an array from an existing
+const peopleNames = ['Isaac', 'Aaron', 'Joe', 'Elon', 'Steve'];
+const oneDiv = peopleNames.splice(1,3); // ['Aaron', 'Joe', 'Elon']
+const twoDiv = peopleNames; // ['Isaac', 'Steve']
+
+
+

@@ -1,35 +1,37 @@
 ## Javascript Course
-		This is a course to learn Javacritp
+This is a course to learn Javacritp
 
 ## Engines / Interpreters
-		to execute the code this programs
-		- Browser
-		- Node.js
-		- SpiderMonkey Javascript Engine
+to execute the code this programs
+- Browser
+- Node.js
+- SpiderMonkey Javascript Engine
 
 ## Course
-  - hello world
-  - comments
-  - variables
-    - scope
-  - artithmetic
-  - control-flow
-    - decision-construct
-      - if
-      - switch
-    - repetition-construct
-      - while
-      - for
-  - types
-    - number
-    - string
-    - boolean
-    - Arrays
-      - Arrays-Operations
-      - Aggregate operations
-      - Accessor Functions
-    - objects
-    - dynamic typed language
+- hello world
+- Comments
+- Types
+  - number
+    - Arithmetic Operations
+  - String
+  - Boolean
+  - Arrays
+   - Arrays Operations
+   - Aggregate operations
+   - Accessor Functions
+   - Mutator functions
+- Variables
+- control-flow
+ - Decision Construct
+   - if, else , if - else - if
+   - switch
+ - repetition-construct
+   - while
+   - for
+- Functions
+- objects
+  - scope
+
   - logical Operators
   - functions
     - arguments

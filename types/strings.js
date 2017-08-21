@@ -1,20 +1,17 @@
+// Creating an string literal
+"Hello world";
+
 "Hola Mundo".indexOf('H');// 0
 
-var myAwesomeString = "Something Really Awesome!!!";
-
 // joining strings
-var greeting = "hello";
-var myName = "Fazt";
-
-greeting + myName;
+"hello " + " isaac"
 
 // Length
 "justanotherPhrase".length;
 
 // getting a single character
-var myName = "Fazt";
-myName[0]; //F
-myName[1]; //a
+"Hello"[0]; //H
+"Hello"[1]; //e
 
 // cutting up strings
 "Hello World and People".slice(6, 12); //World
@@ -24,3 +21,6 @@ myName[1]; //a
 
 // convert to lower case letters
 "HeLLO, THERE HOW are You DOing?".toLowerCase();
+
+// creating an array from an string
+"Javascript is great".split(" ");// ['Javascript', 'is', 'great']

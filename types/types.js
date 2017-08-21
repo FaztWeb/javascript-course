@@ -1,6 +1,6 @@
 // data is information that we store in our computer programms
 // js has two types
-// primitives: are stored as simpl data type
+// primitives: are stored as simple data type
 // there are 5 primitive types
 /*
   string

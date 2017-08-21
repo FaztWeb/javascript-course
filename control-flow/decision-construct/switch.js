@@ -3,8 +3,8 @@ var monthNum = readline();
 var monthName;
 switch (monthNum) {
   case "1":
-    monthName = "January";
-    break;
+  monthName = "January";
+  break;
   case "2":
   monthName = "February";
   break;
