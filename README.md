@@ -31,7 +31,6 @@ to execute the code this programs
 - Functions
 - objects
   - scope
-
   - logical Operators
   - functions
     - arguments
