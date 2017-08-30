@@ -4,14 +4,23 @@
 // subtraction
 10 - 3 //  7
 
-// mutiplication
+// mutiplication, using an *
 10 * 3 // 30
 
-// division
+// division, using a forward slash
 30 / 3 //10
 
 // module
-30 / 3 //0
+30 % 3 //0
+
+// table presedence
+1234 + 57 * 3 - 31 / 4
+// 57 * 3 = 151 
+// 31 / 4 = 7.75
+// 1234 + 171 = 1405
+// 1405 - 7.75 = 1397.5
+
+8 / (1+3)
 
 // Math
 Math.sqrt(9); //3
@@ -21,19 +30,3 @@ Math.random(); // 0 - <1
 Math.floor(Math.random());
 
 
-// variables
-let x = 3;
-let y = 1.1;
-
-(x + y);
-(x * y);
-(x + y) * (x - y);
-
-var z = 9;
-// Precision
-
-
-let a = 3;
-let b = 1.1;
-let c = a * b;
-c.toFixed(2);

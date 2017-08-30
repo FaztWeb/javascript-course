@@ -1,7 +1,7 @@
-// data is information that we store in our computer programms
-// js has two types
+// js has two types of data
 // primitives: are stored as simple data type
 // there are 5 primitive types
+
 /*
   string
   number
@@ -14,23 +14,34 @@
 // literals, representa values that aren't stored in
 // a variable
 // strings
-var name = "Nicholas";
-var selection = "a";
+"My name is Joe"
+"a";
 
-// numbers
+// Numbers
 // js has not distintion between
-// integers or floating points
-var count = 25;
-var cost = 1.25;
+// integers
+25;
+
+// floating points
+1.25;
 
 //boolean
-var found = true;
+true;
+
+// arrays
+['apple', 'banana', 'orange']
+
+// objects
+{
+	name: 'Joe',
+	age: 45
+}
 
 // null: no value
-var object = null;
+null;
 
 // undefined: uninitialized value
-var flag = undefined;
+undefined;
 var ref; // assigned undefined automatically
 
 // references: are stored as objects, which are

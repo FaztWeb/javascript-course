@@ -1,4 +1,5 @@
 
+// actions = verbs
 // =^.^=
 
 var drawCats = function (howManyTimes) {
