@@ -1,23 +1,24 @@
 // js has two types of data
-// primitives: are stored as simple data type
-// there are 5 primitive types
+// primitives types: are stored as simple data type
+// reference types: are stored as objects, are references to locations in memory
+
+// there are 6 primitive types
 
 /*
-  string
-  number
-  boolean
+  String
+  Number
+  Boolean
   null
-  undefined
-  object
+  Undefined
+  symbol
 */
 
-// literals, representa values that aren't stored in
-// a variable
-// strings
+// strings: a sequence of characters
+// js has not separate character type
 "My name is Joe"
 "a";
 
-// Numbers
+// Numbers: any integer or floating point
 // js has not distintion between
 // integers
 25;
@@ -27,6 +28,7 @@
 
 //boolean
 true;
+false;
 
 // arrays
 ['apple', 'banana', 'orange']
@@ -74,3 +76,5 @@ typeof null; //object
 // the best way to determine if a value is null
 // is to compare against null directly
 value === null // true or false
+
+

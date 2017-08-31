@@ -2,7 +2,7 @@
 // recommend, begin with a letter, _ , $
 // Case sensitive
 
-var number;
+var number; //undefined
 
 var name;
 
@@ -35,4 +35,36 @@ let b = 1.1;
 let c = a * b;
 c.toFixed(2);
 
+// literals, represent values that aren't stored in
+// a variable
+var name = "joe";
+var selection = "a";
+
+// numbers
+var count = 25;
+var cost = 1.51;
+
+// boolean
+var found = true;
+
+// null
+var object = null;
+
+// undefined
+var flag = undefined;
+var ref; // assigned undefined automatically
+
+// variable holding a primitive contains the 
+// primitive value instead a pointer to an object
+
+var color1 = "red"; 
+var color2 = color1;
+
+color1; //red
+color2; //red
+
+color1 = blue;
+
+color1; // blue
+color2; // red
 
