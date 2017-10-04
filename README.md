@@ -1,5 +1,4 @@
-## Javascript Course
-This is a course to learn Javacritp
+# Javascript Course
 
 ## Engines / Interpreters
 to execute the code this programs
@@ -7,9 +6,8 @@ to execute the code this programs
 - Node.js
 - SpiderMonkey Javascript Engine
 
-## Course
-- hello world
-- Comments
+# Course
+- basics/
 - Types
   - number
     - Arithmetic Operations
