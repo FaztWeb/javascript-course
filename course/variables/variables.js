@@ -54,10 +54,10 @@ var object = null;
 var flag = undefined;
 var ref; // assigned undefined automatically
 
-// variable holding a primitive contains the 
+// variable holding a primitive contains the
 // primitive value instead a pointer to an object
 
-var color1 = "red"; 
+var color1 = "red";
 var color2 = color1;
 
 color1; //red
@@ -67,4 +67,3 @@ color1 = blue;
 
 color1; // blue
 color2; // red
-

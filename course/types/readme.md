@@ -1,0 +1,9 @@
+- number
+  - Arithmetic Operations
+- String
+- Boolean
+- Arrays
+ - Arrays Operations
+ - Aggregate operations
+ - Accessor Functions
+ - Mutator functions
