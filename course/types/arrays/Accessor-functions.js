@@ -3,7 +3,6 @@
 
 // Searching a value
 var names = ['fazt', 'Isaac', 'Aaron', 'Isaac'];
-
 var name = 'Isaac';
 
 var position = names.indexOf(name);
@@ -17,7 +16,6 @@ if (position >= 0) {
 // lastIndexOf
 var name = 'Isaac';
 var lastindex = names.lastIndexOf(name);
-
 console.log("last index: " + lastindex);
 
 // String array representation
@@ -68,6 +66,3 @@ console.log(myArray.lastIndexOf("apple"));//will render 2
 const peopleNames = ['Isaac', 'Aaron', 'Joe', 'Elon', 'Steve'];
 const oneDiv = peopleNames.splice(1,3); // ['Aaron', 'Joe', 'Elon']
 const twoDiv = peopleNames; // ['Isaac', 'Steve']
-
-
-

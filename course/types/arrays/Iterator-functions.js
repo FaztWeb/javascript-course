@@ -97,20 +97,20 @@ print(sentence); // displays "fox brown quick the"
 
 var myArray=[1,2,3,4,5];
 
-console.log("/-------------Array.map function------------");
-
-var TwoTimes=function(item) {
-  return item*2;
+var TwoTimes = function(item) {
+  return item * 2;
 }
-
-var SegundoArrayProcesado=myArray.map(TwoTimes);
+var SegundoArrayProcesado = myArray.map(TwoTimes);
 console.log(SegundoArrayProcesado);
 
-
-var myArray=["apple","samsung","nokia","blackberry","lg","acer","huawei","xiami","miuzu","alcatel"];
+var myArray = [
+  "apple",
+  "samsung",
+  "nokia"
+];
 
 //filtro los array mediante Array.filter y buscandolos por indexof
-var myNewArray=myArray.filter(function(arrayitem) {
+var myNewArray = myArray.filter(function(arrayitem) {
   if (arrayitem.indexOf("a")==0) {
     return true;
   };

@@ -58,11 +58,9 @@ nums.splice(3,4); // 1, 2, 3, 4, 5
 var nums = [1,2,3,4,5];
 nums.reverse(); // 5, 4, 3, 2, 1
 
-
 // to sort elements
 // works fine for strings
-var names = ["David","Mike","Cynthia","Clayton","Bryan","Raymond"];
-
+var names = ["David", "Mike", "Cynthia", "Clayton", "Bryan", "Raymond"];
 names.sort(); // Bryan, Clayton, Cynthia, ...
 
 // doesn't work very well with numbers
