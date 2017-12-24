@@ -1,3 +1,9 @@
+// JS Have threes scope
+// global - inside script
+// function - inside function f() { }
+// block scope - inside braces { }
+
+// these var are global
 var nameVar = "Ryan";
 var nameVar = "Ray"; // you can redeclare variable
 console.log("nameVar", nameVar);

@@ -1,1 +1,2 @@
-- object literals
+- object-literals.js
+- oop-principles.js

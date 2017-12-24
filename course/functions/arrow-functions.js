@@ -23,8 +23,8 @@ console.log(add(55, 1)); // 56
 
 // this keyword - no longer bound
 const user = {
-  name: 'Andrew',
-  cities: ['Philadelphia', 'New York', 'Dublín'],
+  name: 'Ryan',
+  cities: ['California', 'New York', 'Dublín'],
   printPlacesLived: function () {
     this.cities.forEach(function (city) {
       console.log(city);

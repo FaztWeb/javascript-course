@@ -126,6 +126,80 @@ function PersonThree() {
 }
 
 // The Object() CONTRUCTORS
+// allowt to create a generic Object
+const personTen = new Object();
+personTen.name = "Bruce";
+personTen.surname = "Wayne";
 
+// creating with a literal is the same as the constructor
+const personEleven = {};
+personEleven.constructor === Object // true
 
-console.log(johnManHunter);
+// the object() constructor is able to generate instance from any javascript expression
+var number = new Object(12);
+var anotherNumber = new Object(3*2);
+var string = new Object("test");
+var personTwelve = new Object({name: "Bruce", surname:"Wayne"}) // is equivalent to a literal object, and the rest are primitive values
+
+// OBJECT PROTOTYPES
+// an object can change its structure after its creation
+var josePerez = new Person("Jose", "Perez");
+var brunoDiaz= new Person("Bruno", "Diaz");
+// this a new method for josePerez without affecting to brunoDiaz object
+josePerez.greets = function () {
+  return this.name + ' ' + this.surname;
+}
+
+// but to modify the structure of the constructor
+// now all objects Person have the greets method
+Person.prototype.greets = function () {
+  return this.name + ' ' + this.surname;
+}
+
+// and we can apply this to Object of javascript too
+String.prototype.padLeft = function (width, char) {
+  var result = this;
+  char = char || ' ';
+  if (this.length < width) {
+    result = new Array(width - this.length + 1).join(char) + this;
+  }
+  return result;
+}
+
+"abc".padLeft(10, "x"); //xxxxxxxabc
+
+// CLASSES
+// developers prefer to create an object from an class construct
+// es6 is a syntactic sugar
+class MyPersonClass {
+  constructor(name, surname) {
+    this.name = name;
+    this.surname = surname;
+  }
+}
+typeof MyPersonClass // function
+
+// this is equivalent
+function PersonClass(name, surname) {
+  "use strict";
+  this.name = name;
+  this.surname = surname;
+}
+
+// but we can not execute a class as a function
+// var personThirteen = MyPersonClass(); // throw an error
+
+// also we can assing a class to a variable
+var PersonFourteen = class {
+  // you cannot have more than one constructor in a class
+  constructor(name, surname) {
+    this.name = name;
+    this.surname = surname;
+  }
+};
+
+var johnDoe = new PersonFourteen('john', 'doe');
+
+// and class are not 'hoisted'. we cannot use a class with out a declaration
+var person = new Person();
+class Person {}
